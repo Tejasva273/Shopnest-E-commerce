@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const sendEmail = require('../utils/sendEmail');
 
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '30d' });
+  return jwt.sign({ id }, process.env.JWT_SECRET || 'odprPmCUzMRR32qKdIePI5WXO9dwEey0jCWTMtgNbAk=', { expiresIn: '30d' });
 };
 
 const registerUser = async (req, res) => {

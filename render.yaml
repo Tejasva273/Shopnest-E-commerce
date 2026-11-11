@@ -9,20 +9,12 @@ services:
       - key: NODE_ENV
         value: production
       - key: MONGO_URI
-        sync: false
+        value: mongodb+srv://tejasvaagrahari273_db_user:987654321@cluster0.u8lqmbi.mongodb.net/ecommerce?retryWrites=true&w=majority
       - key: JWT_SECRET
-        generateValue: true
+        value: odprPmCUzMRR32qKdIePI5WXO9dwEey0jCWTMtgNbAk=
       - key: CLOUDINARY_CLOUD_NAME
-        sync: false
+        value: suxkj0de
       - key: CLOUDINARY_API_KEY
-        sync: false
+        value: "555455985311638"
       - key: CLOUDINARY_API_SECRET
-        sync: false
-      - key: GMAIL_USER
-        sync: false
-      - key: GMAIL_PASS
-        sync: false
-      - key: RAZORPAY_KEY_ID
-        sync: false
-      - key: RAZORPAY_KEY_SECRET
-        sync: false
+        value: ktBnCohiqLPF7ytydlzCiJyjR7g
