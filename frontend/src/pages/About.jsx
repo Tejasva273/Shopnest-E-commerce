@@ -28,19 +28,18 @@ const About = () => {
   return (
     <div style={containerStyle}>
       <img
-        src="/dp.jpg"
-        alt="Tejasva Agrahari"
-        style={{
-          width: '180px',
-          height: '180px',
-          borderRadius: '50%',
-          objectFit: 'cover',
-          border: '4px solid #f97316',
-          marginBottom: '20px',
-          boxShadow: '0 4px 20px rgba(249, 115, 22, 0.4)'
-        }}
-      />
-
+  src="/WhatsApp%20Image%202026-02-24%20at%201.32.33%20AM.jpeg"
+  alt="Tejasva Agrahari"
+  style={{
+    width: '180px',
+    height: '180px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    border: '4px solid #f97316',
+    marginBottom: '20px',
+    boxShadow: '0 4px 20px rgba(249, 115, 22, 0.4)'
+  }}
+/>
       <h2 style={{
         fontSize: '2.5rem',
         marginBottom: '10px',
